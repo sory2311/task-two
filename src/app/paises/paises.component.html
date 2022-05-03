@@ -1,0 +1,13 @@
+<div class="container">
+        <h2 class="mt-4">Países y sus Capitales!</h2>
+        <div *ngFor="let sendPais of sendPaises">
+          <div class="row justify-content-start">
+            <div class="col-4">
+              <h5 class="card-title text-success">{{ sendPais.name }}</h5>
+            </div>
+            <div class="col-4">
+              <h6 class="card-text text-danger">{{ sendPais.capital }}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
